@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <link href= "{{ url_for('static', filename='css/app.css') }}" rel="stylesheet">
+    </head>
+	<div class="first">
+	
+
+	<body>
+		
+			<img class="photo"  src = "{{ url_for('static', filename='pichu.jpg') }}">
+
+		<h1> Brian Beckford<h1>
+		    <p class = "words">@beckdon</p>
+		    <p class = "words">Kingston, Jamaica</p>
+		    <p class = "words"> {{joined}}</p>
+
+		</div >	
+            
+
+		<div class = "second">
+		
+			
+
+		
+
+		
+
+		
+		<p class = "diff">
+		    My name is Brian and i can do all things through Jah who strengthens
+		    me. I also scam and i'm good at it and 
+		    plan to continue scamming so i can buy a Mark X.
+			 
+		</p>
+	    <br>
+	    <div class= "stuff">
+	       <div class="row">
+          <div class="column">
+            <h2>3</h2>
+            <p class = "info">Posts</p>
+          </div>
+          <div class="column">
+            <h2>230</h2>
+            <p class = "info">Following</p>
+          </div>
+          <div class="column">
+            <h2>400</h2>
+            <p class = "info">Followers</p>
+          </div>
+        </div>
+	 </div>
+	 
+	 
+	 <div class = bstuff>
+	<button class="button">Follow</button>
+	</div>
+	
+	
+
+		</div>
+
+		
+		<br>
+</html>
+{% endblock %}

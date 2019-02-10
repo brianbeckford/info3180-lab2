@@ -1,3 +1,83 @@
 body {
     padding-top: 5rem;
 }
+
+.first{
+    background-color: #778899;
+    border-radius: 5%
+}
+
+.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img{
+    border-radius: 50%;
+    
+}
+
+.words{
+     text-align: center;
+     font-family: "Georgia", Times, serif;
+     font-size: 20px;
+     color: white;
+}
+
+.diff{
+     text-align: center;
+     font-family: "Georgia", Times, serif;
+     font-size: 20px;
+     color: grey;
+}
+
+.info{
+    color: grey;
+}
+
+h1{
+     text-align: center;
+     color: white;
+}
+
+
+
+.column {
+  text-align: center;
+  width: 33.3%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #B0C4DE	; /* Green #00FF00*/
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 10%;
+  
+}
+
+/*.bstuff{
+    padding-left: 590px;
+   
+}*/
+
+.stuff{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
